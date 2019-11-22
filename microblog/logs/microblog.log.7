@@ -1,0 +1,111 @@
+2019-11-07 14:17:26,753 ERROR: Exception on /edit_profile [GET] [in /Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py: 1891]
+Traceback (most recent call last):
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/leohoward/PycharmProjects/microblog/app/routes.py", line 93, in edit_profile
+    form = EditProfileForm(current_user.username)
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/wtforms/form.py", line 212, in __call__
+    return type.__call__(cls, *args, **kwargs)
+  File "/Users/leohoward/PycharmProjects/microblog/app/forms.py", line 40, in __init__
+    if username.data != self.original_username:
+NameError: name 'username' is not defined
+2019-11-07 14:18:17,234 INFO: Microblog startup [in /Users/leohoward/PycharmProjects/microblog/app/__init__.py: 43]
+2019-11-07 14:20:18,957 INFO: Microblog startup [in /Users/leohoward/PycharmProjects/microblog/app/__init__.py: 43]
+2019-11-07 14:20:38,443 ERROR: Exception on /edit_profile [GET] [in /Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py: 1891]
+Traceback (most recent call last):
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/leohoward/PycharmProjects/microblog/app/routes.py", line 93, in edit_profile
+    form = EditProfileForm(current_user.username)
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/wtforms/form.py", line 212, in __call__
+    return type.__call__(cls, *args, **kwargs)
+  File "/Users/leohoward/PycharmProjects/microblog/app/forms.py", line 40, in __init__
+    if username.data != self.original_username:
+NameError: name 'username' is not defined
+2019-11-07 14:21:23,301 ERROR: Exception on /edit_profile [GET] [in /Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py: 1891]
+Traceback (most recent call last):
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/leohoward/PycharmProjects/microblog/app/routes.py", line 93, in edit_profile
+    form = EditProfileForm(current_user.username)
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/wtforms/form.py", line 212, in __call__
+    return type.__call__(cls, *args, **kwargs)
+  File "/Users/leohoward/PycharmProjects/microblog/app/forms.py", line 40, in __init__
+    if username.data != self.original_username:
+NameError: name 'username' is not defined
+2019-11-07 14:21:43,828 ERROR: Exception on /edit_profile [GET] [in /Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py: 1891]
+Traceback (most recent call last):
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/leohoward/PycharmProjects/microblog/app/routes.py", line 93, in edit_profile
+    form = EditProfileForm(current_user.username)
+  File "/Users/leohoward/.local/share/virtualenvs/leohoward-rwDHvgUI/lib/python3.7/site-packages/wtforms/form.py", line 212, in __call__
+    return type.__call__(cls, *args, **kwargs)
+  File "/Users/leohoward/PycharmProjects/microblog/app/forms.py", line 40, in __init__
+    if username.data != self.original_username:
+NameError: name 'username' is not defined
+2019-11-07 14:25:33,678 INFO: Microblog startup [in /Users/leohoward/PycharmProjects/microblog/app/__init__.py: 43]
+2019-11-07 14:25:39,366 INFO: Microblog startup [in /Users/leohoward/PycharmProjects/microblog/app/__init__.py: 43]
+2019-11-07 14:42:18,428 INFO: Microblog startup [in /Users/leohoward/PycharmProjects/microblog/app/__init__.py: 43]
+2019-11-07 14:42:30,424 INFO: Microblog startup [in /Users/leohoward/PycharmProjects/microblog/app/__init__.py: 43]
+2019-11-07 15:15:08,788 INFO: Microblog startup [in /Users/leohoward/PycharmProjects/microblog/app/__init__.py: 43]
+2019-11-07 15:15:31,578 INFO: Microblog startup [in /Users/leohoward/PycharmProjects/microblog/app/__init__.py: 43]
+2019-11-08 08:26:19,169 INFO: Microblog startup [in /Users/leohoward/PycharmProjects/microblog/app/__init__.py: 43]
+2019-11-08 08:26:29,505 INFO: Microblog startup [in /Users/leohoward/PycharmProjects/microblog/app/__init__.py: 43]
+2019-11-08 08:29:26,564 INFO: Microblog startup [in /Users/leohoward/PycharmProjects/microblog/app/__init__.py: 43]
+2019-11-08 09:38:31,828 INFO: Microblog startup [in /Users/leohoward/PycharmProjects/microblog/app/__init__.py: 43]
+2019-11-08 09:40:31,452 INFO: Microblog startup [in /Users/leohoward/PycharmProjects/microblog/app/__init__.py: 43]
+2019-11-08 09:47:53,952 INFO: Microblog startup [in /Users/leohoward/PycharmProjects/microblog/app/__init__.py: 43]
+2019-11-08 09:51:25,945 INFO: Microblog startup [in /Users/leohoward/PycharmProjects/microblog/app/__init__.py: 43]
+2019-11-08 10:21:11,934 INFO: Microblog startup [in /Users/leohoward/PycharmProjects/microblog/app/__init__.py: 43]
+2019-11-08 10:45:14,327 INFO: Microblog startup [in /Users/leohoward/PycharmProjects/microblog/app/__init__.py: 45]
+2019-11-08 10:47:16,053 INFO: Microblog startup [in /Users/leohoward/PycharmProjects/microblog/app/__init__.py: 45]
+2019-11-08 10:48:07,067 INFO: Microblog startup [in /Users/leohoward/PycharmProjects/microblog/app/__init__.py: 45]
